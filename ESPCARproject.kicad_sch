@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2f4c7fe4-d81d-42af-a8ed-35cbf01f7760)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 105.41 52.07) (size 16.51 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33af9e60-1f78-4455-a2ff-f16cbea40dbc)
+    (property "Sheetname" "Power" (at 105.41 51.3584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power_schematics.kicad_sch" (at 105.41 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 67.31) (size 16.51 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5)
+    (property "Sheetname" "Connector" (at 87.63 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Conn_schematics.kicad_sch.kicad_sch" (at 87.63 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 67.31) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ed478ff8-4da3-42ca-8496-863c4885be9c)
+    (property "Sheetname" "MCU" (at 130.81 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU_schematics.kicad_sch" (at 130.81 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

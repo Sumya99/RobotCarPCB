@@ -1,0 +1,46 @@
+CARPCB_Components:
+1. Jumper 2.54mm header, sockets
+2. Soldering things should be complete
+3. 18650 battery, battery holder, 
+
+
+
+
+
+1. USB C with board
+2. SS8050 SOT-23
+3. Pin header 2.54mm
+4. wire for motors
+5. CH340 and its required elements
+
+
+
+
+Saijruulalt hiihees umnuh turshih zuils:
+1.USB to Serial-aas busad zuilsiig gagnaj ajilluulj uzne. Motor driver, button, led, battery charger circuit.
+
+
+
+Daraah saijruulaltuudiig hiiheer bolson:
+
+1. DTR  ->> https://easyeda.com/modules/Arduino-Nano-CH340C-minimal-atmega-with-pins_07113c77f70b43fb8db16df881890d81
+2. https://pcbartists.com/design/embedded/esp32-ch340-programmer-schematic/
+https://en.kohacraft.com/archives/make-a-circuit-using-ch340c-for-esp32-writingsuccess.html
+
+3. Connector nuguu tald ni hiine gej tootsoh (motor, battery)
+4. VCC GND gargah
+5. ss8050- orond ni ic shuud hiiy
+6. ams1117 footprint uurchilyu
+
+
+
+Zasah zuils: 
+1. FS8205A-iin footprint-iig zasah 
+2. Text width zasah
+3. Button footprint hoorondiin zaig jaahan tomruulah
+4. Power switch nemj hiih
+5. C9 bairlal zasah
+
+Avah zuils nemj:
+ 
+Female header, L shaped
