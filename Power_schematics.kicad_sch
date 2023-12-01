@@ -355,52 +355,52 @@
       )
     )
     (symbol "FS8205A:FS8205A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at -11.43 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+      (property "Reference" "Q3" (at -7.62 5.8167 90)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "FS8205A" (at -11.43 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+      (property "Value" "FS8205A" (at -5.08 5.8167 90)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "FS8205A:SOP65P640X120-8N" (at 0 0 0)
+      (property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MF" "Fortune Semiconductor" (at 0 0 0)
+      (property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm" (at -1.27 -17.78 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm" (at 0 0 0)
+      (property "MF" "Fortune Semiconductor" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "Package" "Package" (at 0 0 0)
+      (property "Package" "Package" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "Price" "None" (at 0 0 0)
+      (property "Price" "None" (at -1.27 -17.78 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda" (at 0 0 0)
+      (property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "STANDARD" "IPC 7351B" (at 0 0 0)
+      (property "STANDARD" "IPC 7351B" (at -1.27 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "PARTREV" "1.7" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap" (at 0 0 0)
+      (property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "MP" "FS8205A" (at 0 0 0)
+      (property "MP" "FS8205A" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (property "Description" "\n" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "Availability" "Not in stock" (at 0 0 0)
+      (property "Availability" "Not in stock" (at -1.27 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
-      (property "MANUFACTURER" "Fortune Semiconductor" (at 0 0 0)
+      (property "MANUFACTURER" "Fortune Semiconductor" (at 0 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify bottom) hide)
       )
       (symbol "FS8205A_0_0"
@@ -732,7 +732,7 @@
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (pin passive line (at 5.08 0 180) (length 2.54)
+        (pin passive line (at 3.81 -1.27 180) (length 2.54)
           (name "~" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
         )
@@ -807,13 +807,13 @@
       )
     )
     (symbol "Regulator_Linear:AMS1117CD-3.3" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 3.175 0)
+      (property "Reference" "U6" (at 0 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "AMS1117CD-3.3" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "AMS1117CD-3.3" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 0 5.08 0)
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 2.54 -6.35 0)
@@ -845,6 +845,68 @@
         )
         (pin power_in line (at -7.62 0 0) (length 2.54)
           (name "VI" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 7.62 0 180) (length 2.54)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Switch:SW_SPDT" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 0 4.318 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "SW_SPDT" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "switch single-pole double-throw spdt ON-ON" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Switch, single pole double throw" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SW_SPDT_0_0"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 -2.54) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SW_SPDT_0_1"
+        (polyline
+          (pts
+            (xy -1.524 0.254)
+            (xy 1.651 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 2.54) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "SW_SPDT_1_1"
+        (pin passive line (at 5.08 2.54 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 2.54)
+          (name "C" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1253,7 +1315,7 @@
     (uuid 46846419-7bff-4cf1-8789-113df2857bbc)
   )
   (junction (at 177.8 63.5) (diameter 0) (color 0 0 0 0)
-    (uuid 53fd24fc-259b-4d4e-9ba1-d3809b5cc1fa)
+    (uuid 5827e1cc-3018-4ce3-ab06-15633401bb88)
   )
   (junction (at 113.03 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 829943ab-5553-45f1-a319-f8e88828161a)
@@ -1298,6 +1360,7 @@
     (uuid f5531b11-d29f-4729-a339-2a54bceaa8ba)
   )
 
+  (no_connect (at 127 99.06) (uuid 07213b1b-d882-46e2-b60f-bdd6787540e6))
   (no_connect (at 133.35 81.28) (uuid 8f5c4195-2cd3-4b1f-8ebd-8dc5084efbc3))
   (no_connect (at 128.27 100.33) (uuid fa133305-ea28-4054-a084-f775be91fe61))
 
@@ -1356,6 +1419,10 @@
   (wire (pts (xy 113.03 96.52) (xy 113.03 95.25))
     (stroke (width 0) (type default))
     (uuid 1b666c1f-9f10-45a4-a31b-bcb7ba5fbd9d)
+  )
+  (wire (pts (xy 186.69 77.47) (xy 186.69 80.01))
+    (stroke (width 0) (type default))
+    (uuid 2126d7e4-a949-4624-8d79-c1a49181c52f)
   )
   (wire (pts (xy 116.84 87.63) (xy 116.84 76.2))
     (stroke (width 0) (type default))
@@ -1448,6 +1515,10 @@
   (wire (pts (xy 261.62 133.35) (xy 261.62 137.16))
     (stroke (width 0) (type default))
     (uuid 45d6bddc-5d9a-4fb9-8c4b-714916900e55)
+  )
+  (wire (pts (xy 184.15 67.31) (xy 184.15 63.5))
+    (stroke (width 0) (type default))
+    (uuid 48a6858b-f6d3-44a1-87eb-f2909be2f7b6)
   )
   (wire (pts (xy 138.43 68.58) (xy 143.51 68.58))
     (stroke (width 0) (type default))
@@ -1553,6 +1624,10 @@
     (stroke (width 0) (type default))
     (uuid 8819b991-aeb8-40b9-ad9b-db9332dbaa0f)
   )
+  (wire (pts (xy 260.35 68.58) (xy 260.35 69.85))
+    (stroke (width 0) (type default))
+    (uuid 888940ee-95ce-4a40-94c0-91954e96c3e3)
+  )
   (wire (pts (xy 119.38 81.28) (xy 118.11 81.28))
     (stroke (width 0) (type default))
     (uuid 888e1504-8ee2-44fb-92ac-8a1c12ba17bb)
@@ -1573,10 +1648,6 @@
     (stroke (width 0) (type default))
     (uuid 91c50ac0-1388-4d8a-aa53-5f19af97c8d1)
   )
-  (wire (pts (xy 184.15 63.5) (xy 177.8 63.5))
-    (stroke (width 0) (type default))
-    (uuid 92dcd340-a532-496c-b9f7-009caf41fa6d)
-  )
   (wire (pts (xy 85.09 80.01) (xy 88.9 80.01))
     (stroke (width 0) (type default))
     (uuid 984c8f61-ada3-4668-a9cf-042830a5770b)
@@ -1592,6 +1663,10 @@
   (wire (pts (xy 205.74 137.16) (xy 214.63 137.16))
     (stroke (width 0) (type default))
     (uuid a1fa87d3-1c81-455a-883d-3c8d43413177)
+  )
+  (wire (pts (xy 260.35 74.93) (xy 260.35 76.2))
+    (stroke (width 0) (type default))
+    (uuid a6b04fc8-e06e-4514-9d22-96bbeb481b27)
   )
   (wire (pts (xy 245.11 133.35) (xy 245.11 137.16))
     (stroke (width 0) (type default))
@@ -1645,6 +1720,10 @@
     (stroke (width 0) (type default))
     (uuid bc224c1b-69ff-4196-b7af-1fddf7fc0387)
   )
+  (wire (pts (xy 260.35 82.55) (xy 260.35 81.28))
+    (stroke (width 0) (type default))
+    (uuid bd55997b-c671-45fd-8d2a-1c15f3946bac)
+  )
   (wire (pts (xy 223.52 125.73) (xy 223.52 128.27))
     (stroke (width 0) (type default))
     (uuid c04e3ba4-8b42-4949-9c54-91e3bdc86b4c)
@@ -1672,6 +1751,10 @@
   (wire (pts (xy 233.68 128.27) (xy 233.68 125.73))
     (stroke (width 0) (type default))
     (uuid d13765f9-8f1f-45c1-9ccd-9d26a15ee4df)
+  )
+  (wire (pts (xy 184.15 63.5) (xy 177.8 63.5))
+    (stroke (width 0) (type default))
+    (uuid d9c44289-d0f9-4f3e-8df9-10888dccb6ac)
   )
   (wire (pts (xy 223.52 137.16) (xy 223.52 139.7))
     (stroke (width 0) (type default))
@@ -1812,11 +1895,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "VOUT+" (shape input) (at 184.15 63.5 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "VOUT+" (shape input) (at 186.69 80.01 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid e90246ab-d545-4d10-929b-2a5a081b964f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 193.4248 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 186.69 89.2848 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
 
@@ -1835,7 +1918,7 @@
     (property "Datasheet" "" (at 236.22 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd5b15fd-9733-40a2-9674-a53e9163c8f2))
+    (pin "1" (uuid 65122119-e6e0-43a5-92d3-9c2ca1302f46))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1860,7 +1943,7 @@
     (property "Datasheet" "" (at 250.19 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d432dd3f-1c83-41fd-9028-fc0cf5131dca))
+    (pin "1" (uuid b06bb796-36fb-4722-9973-2f47e46f2357))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1885,8 +1968,8 @@
     (property "Datasheet" "~" (at 177.8 57.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ffb729ac-1d6c-4074-b7da-1f456ffddad1))
-    (pin "2" (uuid 8115121d-d30d-42e8-8450-8b210bf44b1d))
+    (pin "1" (uuid 0b81c510-b7ab-41d6-af5d-a643126b0377))
+    (pin "2" (uuid a2eb8088-9d14-4409-b5be-daf408bd55e6))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1911,8 +1994,8 @@
     (property "Datasheet" "~" (at 254 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb9ea6a0-31bc-498d-95f4-5615f7c16764))
-    (pin "2" (uuid 94747991-29a5-438d-b899-73cbd0635a70))
+    (pin "1" (uuid f8667f46-e037-4a91-bb25-638cb37fadcb))
+    (pin "2" (uuid 3fe23baa-264a-473d-9983-d0f32dbf726e))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1937,7 +2020,7 @@
     (property "Datasheet" "" (at 163.83 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95922aec-9014-4a3d-8ffa-5aa5a80da170))
+    (pin "1" (uuid 02e4333e-6d65-42f2-848a-a4d2d79d9cb5))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1962,12 +2045,12 @@
     (property "Datasheet" "" (at 120.65 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3f03e50-f62f-49ac-a96a-ab8d1e195810))
-    (pin "2" (uuid fe057ea4-6455-4651-a4a3-017225d079e4))
-    (pin "3" (uuid 03a4690a-e29c-42fc-b32a-f52334a00f1a))
-    (pin "4" (uuid 4b183cf9-bed8-495c-a650-9c1c344eecad))
-    (pin "5" (uuid 8d59a5ef-5366-4811-b2c5-ea2611c4efbd))
-    (pin "6" (uuid 80c75326-e459-49ed-8ca5-ac748f1cc2a8))
+    (pin "1" (uuid bbe57388-1f65-4456-ae10-5dfef19352ec))
+    (pin "2" (uuid a1b16c7a-3591-48db-ab66-66d4e7e6a14a))
+    (pin "3" (uuid 1904e621-3b4c-4a26-9f15-b82285a8ab0b))
+    (pin "4" (uuid d2b25df8-999d-4429-8e6f-b18e1e43c9ff))
+    (pin "5" (uuid 56e25e71-a206-4069-81dc-d8bcb63a0926))
+    (pin "6" (uuid 9cf4c218-f9ae-42d4-bc4c-1b4815178585))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -1992,7 +2075,7 @@
     (property "Datasheet" "" (at 39.37 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4ad3441-7639-4ff0-8ec7-eff5f892f5ab))
+    (pin "1" (uuid dd2f741c-4ced-4c93-8c9d-2e9b962db3d0))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2053,15 +2136,15 @@
     (property "MANUFACTURER" "NanJing Top Power ASIC Corp." (at 69.85 90.17 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid a3cd91de-9883-4263-a200-59fe1e8cff8c))
-    (pin "2" (uuid 25170a7f-7846-4dcc-af54-765134c40f42))
-    (pin "3" (uuid 3bcf2579-91fb-49d2-bab9-2b38fd9f10f2))
-    (pin "4" (uuid 07bdf52d-b159-4ef0-8318-286083dae8c0))
-    (pin "5" (uuid 06ccd329-f5fe-47e4-a82d-2cc488bed4cd))
-    (pin "6" (uuid 0be615a6-4657-4022-a9d2-c0c58a0e8833))
-    (pin "7" (uuid b2852a90-23d4-4be4-a423-96eecaf9a5f1))
-    (pin "8" (uuid 0de1b44b-5a0d-4d14-aae7-cd9fcb2a5f73))
-    (pin "9" (uuid 96bd462e-613f-4e26-ba57-cf33f8279c15))
+    (pin "1" (uuid bc1c1265-874c-475f-b565-796812668c24))
+    (pin "2" (uuid e5bebc22-31df-47a2-be66-a1e6b21ffe1b))
+    (pin "3" (uuid 09eb8c6c-8ba9-4c37-b232-bace0f8fd0be))
+    (pin "4" (uuid d568f171-aa7d-4045-94dc-9177ff38315c))
+    (pin "5" (uuid 2f76b410-9360-4736-8be4-8ab669aae80c))
+    (pin "6" (uuid 397e6f63-fe0e-46d6-a7ff-8babbb9ac31f))
+    (pin "7" (uuid 72af7fd9-4321-4ed4-b68d-0521672bd84d))
+    (pin "8" (uuid 0050a940-c3ca-4cbd-b169-81252a812936))
+    (pin "9" (uuid 84ced02f-2479-432d-b5c6-428663627f48))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760"
@@ -2089,7 +2172,7 @@
     (property "Datasheet" "" (at 113.03 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fd463eb-60eb-445d-8a39-9bd63ecc0c9a))
+    (pin "1" (uuid 62942b47-8574-462a-959a-3b72a9b12475))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2114,8 +2197,8 @@
     (property "Datasheet" "~" (at 38.1 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abb20e2b-d7aa-46e0-8c3c-70c683f5cd9e))
-    (pin "2" (uuid b6c63f84-3c5f-439a-9f72-d3236b879814))
+    (pin "1" (uuid 2dc4b84d-277d-4e5b-aebe-5a4804e8a6c1))
+    (pin "2" (uuid bb58e805-06d2-42e1-8ca5-5c989cbc5674))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2140,7 +2223,7 @@
     (property "Datasheet" "" (at 88.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 86c7401a-8766-4cd4-950d-ab597335e4e5))
+    (pin "1" (uuid 69955e67-68e5-46cd-b72f-871a2a551bae))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2162,15 +2245,16 @@
     (property "Value" "AMS1117CD-3.3" (at 236.22 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 236.22 64.77 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (at 236.22 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 238.76 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f983ec7f-f0a5-4809-97bb-d90d86327b74))
-    (pin "2" (uuid e3df56a2-6046-4865-bd79-442ea1667267))
-    (pin "3" (uuid 6121c469-f5f3-40fb-ac8b-0db4a96d517a))
+    (pin "1" (uuid 303e19ec-8d12-43f4-9bc7-5a05fe3348f6))
+    (pin "2" (uuid c3155b50-7794-4aaf-9b9f-36cd8d0b4136))
+    (pin "3" (uuid c1a0f68c-bbde-4aa2-a23e-f90f6c02f6f8))
+    (pin "4" (uuid db06184d-c717-4d73-b122-daaa4df0513e))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760"
@@ -2198,12 +2282,38 @@
     (property "Datasheet" "~" (at 149.86 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d3d635f-73a7-4fa9-a257-ac96e807b468))
-    (pin "2" (uuid a1c09f8b-7550-4cb5-a253-93ed188b13c5))
+    (pin "1" (uuid 2874b33e-e6c9-489b-a1c0-37a0d5393c3f))
+    (pin "2" (uuid 8310fdf7-c440-403c-806e-90db09fb019e))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
           (reference "R36") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 260.35 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2f56b091-69dc-4dc2-97fd-2e16db2f51c5)
+    (property "Reference" "R1" (at 262.89 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "330" (at 262.89 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 260.35 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 260.35 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c419f38a-ccf6-48ce-a74e-78de6762d856))
+    (pin "2" (uuid bc892490-2852-481d-bf5d-4ec0367de5e6))
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2224,7 +2334,7 @@
     (property "Datasheet" "" (at 250.19 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a79653ea-be63-44c2-bc6a-9fd00d5af5a4))
+    (pin "1" (uuid fbb72306-54d2-4144-8517-f61f8b2d959e))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2249,12 +2359,37 @@
     (property "Datasheet" "~" (at 55.88 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a6e6201d-42d2-4911-b2aa-af3ea57fd1ba))
-    (pin "2" (uuid b754e94b-f83a-401a-b4d9-e73931711695))
+    (pin "1" (uuid 813878f4-91e2-403c-b9a2-9785620eb8ab))
+    (pin "2" (uuid 559115c4-d7b4-4c8e-9353-7b94b039b32b))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
           (reference "R34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 260.35 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 346f3c43-321f-4dbe-ad3b-977e48bc14e0)
+    (property "Reference" "#PWR05" (at 260.35 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 260.35 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 260.35 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 260.35 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 57d0390e-022e-4f6e-bb0b-dd6b30f5fe1c))
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2275,8 +2410,8 @@
     (property "Datasheet" "~" (at 143.51 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e76b735-34ba-4f53-8595-e3fcc0875ae0))
-    (pin "2" (uuid fbac8110-2968-4626-ba0a-fbcbee199802))
+    (pin "1" (uuid 17e63a46-15c1-48bc-9f74-e04db26356b8))
+    (pin "2" (uuid d513c3ad-e0da-46c0-9275-00ad99eb32a8))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2301,12 +2436,37 @@
     (property "Datasheet" "~" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c7377f1-2e3e-41f3-a62f-48af21eba3d3))
-    (pin "2" (uuid 074e84c0-4b75-49a8-85be-3e17a31b75ec))
+    (pin "1" (uuid 9e09066a-35a9-49e1-ae05-5943ee79c744))
+    (pin "2" (uuid 5487adb8-bbdd-415e-a4f2-fa83ceb617f0))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
           (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 260.35 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 40a03540-5d7f-40d1-a19f-299d784acebb)
+    (property "Reference" "#PWR03" (at 260.35 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 260.35 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 260.35 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 260.35 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 118b217e-7a9b-4808-ad8c-dd6e56ed2199))
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2327,7 +2487,7 @@
     (property "Datasheet" "" (at 38.1 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd2dc1eb-c1af-4e67-a391-f31993321753))
+    (pin "1" (uuid 6841c048-9250-49fe-8a09-5d40fe8c0554))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2355,7 +2515,7 @@
     (property "Datasheet" "" (at 261.62 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c16f2c4a-53f1-44b4-a052-f8282a216ab1))
+    (pin "1" (uuid 1e0ae132-36d0-4893-9563-d4ebc7e9e4ed))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2380,8 +2540,8 @@
     (property "Datasheet" "~" (at 250.19 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0af315fc-8559-4be7-b7dd-b04612d6a794))
-    (pin "2" (uuid f1fd581a-96b3-4f14-ab1a-e60b61182d9b))
+    (pin "1" (uuid 41c9ebc2-30a5-49b3-972a-40fc096710bf))
+    (pin "2" (uuid f5e1d148-753d-46b5-861d-bd77c877df90))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2406,9 +2566,9 @@
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" (at 170.18 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 3b032626-9dae-4af3-85e8-6230bb4fa3f0))
-    (pin "2" (uuid bcb4471a-fe77-469a-97dd-872374ec170f))
-    (pin "3" (uuid 11a19da0-8e03-4f44-8dea-055182b1af12))
+    (pin "1" (uuid 8449f745-dd04-4549-9ff9-3a036b45d2a8))
+    (pin "2" (uuid 8fad87da-63bd-430d-a5b5-617a6cc822bf))
+    (pin "3" (uuid 832b83e5-2315-4632-92e7-703331c95bc4))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2433,7 +2593,7 @@
     (property "Datasheet" "" (at 86.36 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b59f38cc-66ec-403e-8654-037304386013))
+    (pin "1" (uuid a1a8f37e-f43a-4c5f-b191-d1e985a82839))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2458,8 +2618,8 @@
     (property "Datasheet" "~" (at 214.63 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84449dc1-5090-428a-b5dc-e016c7f4db2f))
-    (pin "2" (uuid 9436153a-356c-4c1e-a416-5c6e56f59814))
+    (pin "1" (uuid 9c275a80-7998-493c-a897-fa1c99213623))
+    (pin "2" (uuid a5e8d76b-4fa9-4a2d-9164-6abcc7cf2d3a))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2484,8 +2644,8 @@
     (property "Datasheet" "~" (at 151.13 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3054ecec-aa52-4cd1-9766-6f0556dc9e41))
-    (pin "2" (uuid 63071b70-b4a1-4887-86c2-373109acff15))
+    (pin "1" (uuid c2e94869-791e-43b8-ab5a-a81c43f476be))
+    (pin "2" (uuid 26ef8b81-4145-4502-8655-5d079677a060))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2510,7 +2670,7 @@
     (property "Datasheet" "" (at 222.25 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78cb8a1d-c624-4569-954b-d8f6a9a250f4))
+    (pin "1" (uuid eb7935ba-7124-45df-8494-6934094277fe))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2535,8 +2695,8 @@
     (property "Datasheet" "~" (at 271.78 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d41f4e2d-996b-4cae-9609-f3af8eadf008))
-    (pin "2" (uuid f5ef02cf-bda0-4db1-bf60-9bf756960875))
+    (pin "1" (uuid 30deca6a-cec4-4af7-8dae-cd38e8f8a4f5))
+    (pin "2" (uuid 2e570ba4-27b7-479b-ae32-05b07073641f))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2561,7 +2721,7 @@
     (property "Datasheet" "" (at 45.72 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4e6c475-db1f-4412-8cb5-c73c847995ae))
+    (pin "1" (uuid c5b44d04-a006-4d3b-bbe7-02ac197dff12))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2586,8 +2746,8 @@
     (property "Datasheet" "~" (at 59.69 66.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a05fb8a-4ec4-4d3b-ba03-94050a30a88c))
-    (pin "2" (uuid f0f2a8e6-e03b-4380-9994-1e3ca9ccf7f4))
+    (pin "1" (uuid 6917040c-7829-43a8-9d03-bf15b9727521))
+    (pin "2" (uuid 3a409afe-c783-4a07-bc82-c5db01a517a3))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2612,7 +2772,7 @@
     (property "Datasheet" "" (at 55.88 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c7a4669-ba0b-4a6a-9c3a-c8a63fdacecf))
+    (pin "1" (uuid 71b0c50f-c2b2-4bef-b83a-bdc7ceb20e02))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2640,8 +2800,8 @@
     (property "Datasheet" "~" (at 223.52 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbf11f5d-1ae3-4577-8ac9-87908839df7d))
-    (pin "2" (uuid 7becaf2d-f91c-4140-a209-d43eaebe9621))
+    (pin "1" (uuid d16d0eea-e742-4e5f-9bb2-47377656dcc9))
+    (pin "2" (uuid 5fcc29c3-d38e-43c3-8f8e-2c6ca780ae27))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2666,8 +2826,8 @@
     (property "Datasheet" "~" (at 41.91 66.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 42019204-5fa8-408f-9ec2-8e2e7eddeb55))
-    (pin "2" (uuid 4db83adf-1e02-4b10-95b5-02426631f216))
+    (pin "1" (uuid 86981fdb-8766-467f-9ed7-b1433df212b3))
+    (pin "2" (uuid ee6c24b5-083e-48d3-9c2e-a0a159a3184f))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2692,7 +2852,7 @@
     (property "Datasheet" "" (at 152.4 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd862b69-0054-4d50-bec4-6ef8e8b38606))
+    (pin "1" (uuid cbffa315-2841-4d5a-a40b-a8d6d7c24c7e))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2717,7 +2877,7 @@
     (property "Datasheet" "" (at 39.37 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7ed5fec-4a11-4800-88f3-c68bd9b0d66c))
+    (pin "1" (uuid ba027212-95df-4244-9579-cd2296eaf674))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2742,12 +2902,38 @@
     (property "Datasheet" "~" (at 205.74 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ed1f033-7eae-4486-bbda-b899715e3385))
-    (pin "2" (uuid 039cd61a-7c28-4452-adf5-cd2527e96d84))
+    (pin "1" (uuid 2dc414b4-3be0-4447-98b2-049eb6af95e3))
+    (pin "2" (uuid d541d55c-df69-4c8b-ae3f-b25222ce71cd))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
           (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED_Small") (at 260.35 78.74 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b07e0cab-8166-494b-9a92-24f92173f661)
+    (property "Reference" "D12" (at 259.08 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Power LED" (at 264.16 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 260.35 78.74 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 260.35 78.74 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 20501f20-e334-4546-85f3-276441974355))
+    (pin "2" (uuid 76e39c04-f684-489a-b334-f71c400816b4))
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -2768,7 +2954,7 @@
     (property "Datasheet" "" (at 223.52 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe0b6f65-c8f7-48c6-a0b0-042dbeb83094))
+    (pin "1" (uuid 81f79707-4b95-4f86-8d0d-d42ce22ce57d))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2793,7 +2979,7 @@
     (property "Datasheet" "" (at 149.86 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8cd92c76-f9d2-401c-9acb-a0c2996069f5))
+    (pin "1" (uuid 92a0898d-372c-4f3a-a53f-f21ff601cbba))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2818,7 +3004,7 @@
     (property "Datasheet" "" (at 170.18 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2f571b9-6b18-4322-a1da-8b664db26e90))
+    (pin "1" (uuid fcd305a2-b045-409d-a787-edd510dfaa8d))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2846,7 +3032,7 @@
     (property "Datasheet" "" (at 261.62 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c9b34aa-6dd4-4661-b288-df74f4bdf465))
+    (pin "1" (uuid a584e856-3dcf-4193-aab6-ed9e58a3dca7))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2871,8 +3057,8 @@
     (property "Datasheet" "~" (at 261.62 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a118d1e-1b66-4d2b-b94f-b5b311c700a9))
-    (pin "2" (uuid 794b0877-fc92-40da-bb32-2a58b0357a23))
+    (pin "1" (uuid 5957ff59-c704-4e04-8628-ccff138077a5))
+    (pin "2" (uuid a182a3fd-df62-4441-998d-c06bdd05155a))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2897,7 +3083,7 @@
     (property "Datasheet" "" (at 149.86 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db2977c3-8eec-4c28-8c9a-d48f77e46242))
+    (pin "1" (uuid 21083046-d53f-4eea-bf7a-8ad32d9f546c))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
@@ -2925,8 +3111,8 @@
     (property "Datasheet" "~" (at 113.03 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c992b44b-b94f-425f-a3f4-da8986ba1cf4))
-    (pin "2" (uuid 3ddeef24-64df-4252-80b6-7a310c62f07d))
+    (pin "1" (uuid 0bd6ee44-01a2-401d-9db6-cd050ed4d058))
+    (pin "2" (uuid 37014d85-060d-4bc9-af32-dc2abe107514))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2951,8 +3137,8 @@
     (property "Datasheet" "~" (at 233.68 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 356c1df2-5845-4676-9963-164453e790a2))
-    (pin "2" (uuid a4ee43cb-2a69-4021-84b0-1ce30153d09a))
+    (pin "1" (uuid 1e9fb617-8487-45d5-ad6d-38bfe875a4df))
+    (pin "2" (uuid 862544db-23fa-47fa-8caa-7e5b71b31da0))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -2977,8 +3163,8 @@
     (property "Datasheet" "~" (at 50.8 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bec8467-f0b1-4931-a096-6d7f07f0e332))
-    (pin "2" (uuid ca1bf883-e395-4c14-8fed-f72714be28d3))
+    (pin "1" (uuid 4e7f5d5b-9f34-4850-a897-35e07a4504b1))
+    (pin "2" (uuid f38c3494-238d-445a-8f35-afb92f1e1fad))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -3003,7 +3189,7 @@
     (property "Datasheet" "" (at 50.8 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f8ed1b2e-62cd-437f-b11b-767ce957b23c))
+    (pin "1" (uuid a97b8cf7-1ee7-4581-9514-feac8d8c415a))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -3028,8 +3214,8 @@
     (property "Datasheet" "~" (at 163.83 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 881250b8-bf98-49e9-b07e-d5df700ed8c9))
-    (pin "2" (uuid ce4d6f0f-d760-4182-809f-d42948a1a2cc))
+    (pin "1" (uuid 7612b190-f86d-4562-a672-a59dd049f472))
+    (pin "2" (uuid 8ed45c30-f7af-4479-b114-a37718ab1ed2))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -3054,8 +3240,8 @@
     (property "Datasheet" "~" (at 245.11 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ae09743-9a9a-4035-8229-a070a93f97ef))
-    (pin "2" (uuid 167bf882-1205-45d7-842b-7d5423b0579a))
+    (pin "1" (uuid e3f1bd83-42aa-469f-801d-9ceb4e46cd78))
+    (pin "2" (uuid bb8ed935-388a-4912-8010-773b71172e07))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
@@ -3074,60 +3260,90 @@
     (property "Value" "FS8205A" (at 134.0867 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (at 128.27 95.25 0)
+    (property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 128.27 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MF" "Fortune Semiconductor" (at 128.27 95.25 0)
+    (property "MF" "Fortune Semiconductor" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm" (at 128.27 95.25 0)
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm" (at 110.49 93.98 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Package" "Package" (at 128.27 95.25 0)
+    (property "Package" "Package" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Price" "None" (at 128.27 95.25 0)
+    (property "Price" "None" (at 110.49 93.98 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda" (at 128.27 95.25 0)
+    (property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "STANDARD" "IPC 7351B" (at 128.27 95.25 0)
+    (property "STANDARD" "IPC 7351B" (at 109.22 93.98 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "PARTREV" "1.7" (at 128.27 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap" (at 128.27 95.25 0)
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MP" "FS8205A" (at 128.27 95.25 0)
+    (property "MP" "FS8205A" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Description" "\n" (at 128.27 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Availability" "Not in stock" (at 128.27 95.25 0)
+    (property "Availability" "Not in stock" (at 109.22 93.98 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MANUFACTURER" "Fortune Semiconductor" (at 128.27 95.25 0)
+    (property "MANUFACTURER" "Fortune Semiconductor" (at 109.22 95.25 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid 386fd5ea-1ffa-4c99-98bd-2d76bb00eb3f))
-    (pin "2" (uuid 20a6be29-3f16-4563-a596-1bd8702a10b1))
-    (pin "3" (uuid e6e3e33a-26bd-4662-9031-e1da0abb25be))
-    (pin "4" (uuid cae2b98e-6376-4732-b2fb-89e33b1b2f51))
-    (pin "5" (uuid cd4b88b7-15ed-4b48-abe1-cc7626737873))
-    (pin "6" (uuid ba0f6c15-dd03-45cd-87f9-9cdf81bab821))
-    (pin "7" (uuid 885263e6-76ec-4700-910c-3da2662cf51f))
-    (pin "8" (uuid 82c6de40-5fdb-4cde-bdfb-625f0b9fcd7e))
+    (pin "1" (uuid 8dc92844-98ab-468b-b3be-e929f6fcdd76))
+    (pin "2" (uuid a1799a8b-4d9b-42d0-81b8-21e67ade9a48))
+    (pin "3" (uuid 5537e76d-1cbe-4c8f-b7f3-02d0c76d33ff))
+    (pin "4" (uuid 2e01e628-89ac-4ade-9bd7-77355ea2547c))
+    (pin "5" (uuid c79117a3-af9f-4dc9-a959-b93442b198c7))
+    (pin "6" (uuid 58090aec-698d-43da-ab4c-b20ba8364829))
+    (pin "7" (uuid f538a361-4765-4fd4-8f93-a8893cfb5887))
+    (pin "8" (uuid 06256c0d-8906-4d0a-97a5-a9cc2711a0e2))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
           (reference "Q3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_SPDT") (at 186.69 72.39 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e3e5f255-b9c5-4f38-90a6-d6fabb24ea1a)
+    (property "Reference" "SW6" (at 190.5 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "SW_SPDT" (at 190.5 73.66 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "TP4056:SW_spdt _slide" (at 186.69 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 186.69 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea2c27f2-6955-4052-948b-093a8a06b2ee))
+    (pin "2" (uuid 1cba9f8e-2e8d-4581-9973-8bbb90cd93d0))
+    (pin "3" (uuid 69538a25-8091-4fc7-a162-58cc0d35aadd))
+    (instances
+      (project "ESPCARproject"
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/4d4dbb73-9fbe-4eda-9dd2-50ab8968a5d5"
+          (reference "SW6") (unit 1)
+        )
+        (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -3148,8 +3364,8 @@
     (property "Datasheet" "~" (at 222.25 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0c24225-e3fa-43ab-be26-d571df29fd6f))
-    (pin "2" (uuid dafd0aa2-2b58-41d0-8a79-81813aa17ee8))
+    (pin "1" (uuid 7013851d-0fc5-4085-8e5c-fd0197884308))
+    (pin "2" (uuid 3c848ed1-2734-4308-ba51-91ef10cf4ee8))
     (instances
       (project "ESPCARproject"
         (path "/2f4c7fe4-d81d-42af-a8ed-35cbf01f7760/33af9e60-1f78-4455-a2ff-f16cbea40dbc"
